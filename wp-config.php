@@ -19,19 +19,21 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
-$url = parse_url(getenv('JAWSDB_URL') ? getenv('JAWSDB_URL') : getenv('CLEARDB_DATABASE_URL'));
+
+print_r(getenv('DATABASE') .' - '. getenv('HOST'));exit;
+
 
 /** O nome do banco de dados do WordPress */
-define( 'DB_NAME', trim($url['path']) );
+define( 'DB_NAME', getenv('DATABASE') );
 
 /** Usuário do banco de dados MySQL */
-define( 'DB_USER', $url['user'] );
+define( 'DB_USER', getenv('USERNAME') );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', $url['pass'] );
+define( 'DB_PASSWORD', getenv('PASSWORD') );
 
 /** Nome do host do MySQL */
-define( 'DB_HOST', $url['host'] );
+define( 'DB_HOST', getenv('HOST') );
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define( 'DB_CHARSET', 'utf8' );
