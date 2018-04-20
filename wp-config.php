@@ -20,8 +20,6 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 
-print_r(getenv('DATABASE') .' - '. getenv('HOST'));exit;
-
 
 /** O nome do banco de dados do WordPress */
 define( 'DB_NAME', getenv('DATABASE') );
