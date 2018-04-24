@@ -1,0 +1,965 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-16 09:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:26
+msgid "Page not found!"
+msgstr ""
+
+#: 404.php:31
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+" when an unknown printer took a galley of type and scrambled it to make a "
+"type specimen book."
+msgstr ""
+
+#: 404.php:42
+msgid "Back To HomePage"
+msgstr ""
+
+#: comments.php:29
+msgid "Comments "
+msgstr ""
+
+#: comments.php:34 comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:37 comments.php:59
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:38 comments.php:60
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:78
+msgid "Post A Comment"
+msgstr ""
+
+#: comments.php:79
+msgid "Send Comment"
+msgstr ""
+
+#: comments.php:84
+msgid "COMMENT"
+msgstr ""
+
+#: comments.php:85
+msgid "YOUR NAME"
+msgstr ""
+
+#: comments.php:86
+msgid "YOUR EMAIL"
+msgstr ""
+
+#: comments.php:87
+msgid "YOUR WEBSITE"
+msgstr ""
+
+#: comments.php:89
+msgid "Comment"
+msgstr ""
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:57
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:58
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:100
+msgid "Post Sidebar"
+msgstr ""
+
+#: functions.php:101
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:119
+msgid "Top Sidebar"
+msgstr ""
+
+#: functions.php:131
+msgid "Footer"
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:4
+msgid "Enter text here..."
+msgstr ""
+
+#. Name of the template
+msgid "Full Width"
+msgstr ""
+
+#: templates/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/content-page.php:30 templates/content-single.php:88
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post
+#: templates/content-page.php:42
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: templates/content-related.php:54 templates/content-search.php:47
+#: templates/content-single.php:26 templates/content-standard.php:47
+#: templates/content.php:47
+msgid "by"
+msgstr ""
+
+#: templates/content-related.php:58 templates/content-search.php:51
+#: templates/content-single.php:30 templates/content-standard.php:51
+#: templates/content.php:51
+#, php-format
+msgid "View all posts of %s"
+msgstr ""
+
+#: templates/content-related.php:64 templates/content-search.php:57
+#: templates/content-single.php:36 templates/content-standard.php:57
+#: templates/content.php:57
+msgid "Posted"
+msgstr ""
+
+#: templates/content-single.php:129
+msgid "No Comments"
+msgstr ""
+
+#: templates/content-single.php:133
+msgid " Comments"
+msgstr ""
+
+#: templates/content-single.php:137
+msgid "1 Comment"
+msgstr ""
+
+#: templates/content-single.php:156
+msgid "Prev Post"
+msgstr ""
+
+#: templates/content-single.php:165
+msgid "Next Post"
+msgstr ""
+
+#: templates/content-single.php:190
+msgid "You May Also Like..."
+msgstr ""
+
+#: inc/backend/class-custom-menu-item.php:47
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: inc/backend/class-custom-menu-item.php:48
+msgid "Custom content"
+msgstr ""
+
+#: inc/backend/class-custom-menu-item.php:49
+msgid "Column Width"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:22
+msgid "MetaBox Settings"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:29
+msgid "Image"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:36
+msgid "Gallery"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:42
+msgid "Audio"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:50
+msgid "Video"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:58
+msgid "Link"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:66
+msgid "Text"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:74
+msgid "Quote"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:82
+msgid "Author"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:90
+msgid "URL"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:98
+msgid "Status"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:111
+msgid "Display Settings"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:117
+msgid "Title"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:122
+msgid "Hide The Title"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:128 inc/backend/theme-options.php:491
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:133
+msgid "Hide Breadcrumb"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:139
+msgid "Layout & Styles"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:144
+msgid "Custom Layout"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:150 inc/backend/theme-options.php:212
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:156
+msgid "Custom JavaScript"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:167 inc/backend/meta-boxes.php:204
+msgid "Information"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:173
+msgid "Clients"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:179
+msgid "Short Description"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:191
+msgid "Client Information"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:197
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/backend/nav-menus.php:64 inc/backend/menu-templates/menus.php:7
+msgid "Settings"
+msgstr ""
+
+#: inc/backend/nav-menus.php:163
+msgid "Close"
+msgstr ""
+
+#: inc/backend/nav-menus.php:176
+msgid "Save Changes"
+msgstr ""
+
+#: inc/backend/nav-menus.php:177
+msgid "Cancel"
+msgstr ""
+
+#: inc/backend/plugins-required.php:41
+msgid "Newsletter"
+msgstr ""
+
+#: inc/backend/plugins-required.php:46
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/backend/theme-options.php:14 inc/backend/theme-options.php:15
+#: inc/backend/theme-options.php:18
+msgid "Theme Options"
+msgstr ""
+
+#: inc/backend/theme-options.php:97
+msgid "Layout"
+msgstr ""
+
+#: inc/backend/theme-options.php:105
+msgid "Page Layout"
+msgstr ""
+
+#: inc/backend/theme-options.php:106
+msgid "Select layout for page"
+msgstr ""
+
+#: inc/backend/theme-options.php:109 inc/backend/theme-options.php:130
+msgid "Full Page"
+msgstr ""
+
+#: inc/backend/theme-options.php:113 inc/backend/theme-options.php:134
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/backend/theme-options.php:117 inc/backend/theme-options.php:138
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/backend/theme-options.php:126
+msgid "Post Layout"
+msgstr ""
+
+#: inc/backend/theme-options.php:127
+msgid "Select layout for post"
+msgstr ""
+
+#: inc/backend/theme-options.php:165
+msgid "Permalink Length"
+msgstr ""
+
+#: inc/backend/theme-options.php:166
+msgid "Input here your custom permalink length"
+msgstr ""
+
+#: inc/backend/theme-options.php:173
+msgid "404 Page Settings"
+msgstr ""
+
+#: inc/backend/theme-options.php:178
+msgid "Page Title"
+msgstr ""
+
+#: inc/backend/theme-options.php:184
+msgid "Page sub description"
+msgstr ""
+
+#: inc/backend/theme-options.php:190
+msgid "Page description"
+msgstr ""
+
+#: inc/backend/theme-options.php:201
+msgid "Google map API key"
+msgstr ""
+
+#: inc/backend/theme-options.php:202
+msgid "Input here the API key to display google map, you can register it at: "
+msgstr ""
+
+#: inc/backend/theme-options.php:207
+msgid "Custom Color Scheme"
+msgstr ""
+
+#: inc/backend/theme-options.php:213
+msgid "Input here your custom CSS codes"
+msgstr ""
+
+#: inc/backend/theme-options.php:239
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/backend/theme-options.php:241 inc/backend/theme-options.php:256
+#: inc/backend/theme-options.php:271 inc/backend/theme-options.php:366
+#: inc/backend/theme-options.php:392 inc/backend/theme-options.php:458
+#: inc/backend/theme-options.php:507 inc/backend/theme-options.php:544
+msgid "On"
+msgstr ""
+
+#: inc/backend/theme-options.php:242 inc/backend/theme-options.php:257
+#: inc/backend/theme-options.php:272 inc/backend/theme-options.php:367
+#: inc/backend/theme-options.php:393 inc/backend/theme-options.php:459
+#: inc/backend/theme-options.php:508 inc/backend/theme-options.php:545
+msgid "Off"
+msgstr ""
+
+#: inc/backend/theme-options.php:247
+msgid "Topbar"
+msgstr ""
+
+#: inc/backend/theme-options.php:248
+msgid "The options apply for topbar element"
+msgstr ""
+
+#: inc/backend/theme-options.php:254
+msgid "Display Topbar"
+msgstr ""
+
+#: inc/backend/theme-options.php:262
+msgid "Topbar background color"
+msgstr ""
+
+#: inc/backend/theme-options.php:269
+msgid "Display Button Analytic"
+msgstr ""
+
+#: inc/backend/theme-options.php:278
+msgid "Button background color"
+msgstr ""
+
+#: inc/backend/theme-options.php:285
+msgid "Button Text"
+msgstr ""
+
+#: inc/backend/theme-options.php:291
+msgid "Button Link Action"
+msgstr ""
+
+#: inc/backend/theme-options.php:303
+msgid "Logo"
+msgstr ""
+
+#: inc/backend/theme-options.php:304 inc/backend/theme-options.php:313
+#: inc/backend/theme-options.php:381 inc/backend/theme-options.php:535
+msgid "Upload new logo or select one in media library"
+msgstr ""
+
+#: inc/backend/theme-options.php:312
+msgid "Favicon"
+msgstr ""
+
+#: inc/backend/theme-options.php:321
+msgid "Menu extra item"
+msgstr ""
+
+#: inc/backend/theme-options.php:322
+msgid "Display and sortable menu extra items"
+msgstr ""
+
+#: inc/backend/theme-options.php:323
+msgid "There are items display at the end of navigation bar"
+msgstr ""
+
+#: inc/backend/theme-options.php:325
+msgid "Search"
+msgstr ""
+
+#: inc/backend/theme-options.php:326
+msgid "Multi Languages"
+msgstr ""
+
+#: inc/backend/theme-options.php:327
+msgid "Socials"
+msgstr ""
+
+#: inc/backend/theme-options.php:338
+msgid "Header Scripts"
+msgstr ""
+
+#: inc/backend/theme-options.php:339 inc/backend/theme-options.php:428
+msgid "Input here your custom scripts"
+msgstr ""
+
+#: inc/backend/theme-options.php:364
+msgid "Display Subscribe Section"
+msgstr ""
+
+#: inc/backend/theme-options.php:372
+msgid "Section Background Color"
+msgstr ""
+
+#: inc/backend/theme-options.php:380
+msgid "Subscribe Background Image"
+msgstr ""
+
+#: inc/backend/theme-options.php:389
+msgid "Display Footer Widgets"
+msgstr ""
+
+#: inc/backend/theme-options.php:390
+msgid "Look, it's on!"
+msgstr ""
+
+#: inc/backend/theme-options.php:398
+msgid "Footer Widget Columns"
+msgstr ""
+
+#: inc/backend/theme-options.php:399
+msgid "Select the number of columns are displayed"
+msgstr ""
+
+#: inc/backend/theme-options.php:402
+msgid "1 Column"
+msgstr ""
+
+#: inc/backend/theme-options.php:406
+msgid "2 Columns"
+msgstr ""
+
+#: inc/backend/theme-options.php:410
+msgid "3 Columns"
+msgstr ""
+
+#: inc/backend/theme-options.php:420
+msgid "Footer Copy Right"
+msgstr ""
+
+#: inc/backend/theme-options.php:422
+msgid "©All Rights Reserved 2017 SeoPlan"
+msgstr ""
+
+#: inc/backend/theme-options.php:427
+msgid "Footer Scripts"
+msgstr ""
+
+#: inc/backend/theme-options.php:456
+msgid "Display social buttons"
+msgstr ""
+
+#: inc/backend/theme-options.php:464
+msgid "Open link on new tab"
+msgstr ""
+
+#: inc/backend/theme-options.php:499
+msgid "Blog Page Title"
+msgstr ""
+
+#: inc/backend/theme-options.php:500 inc/backend/theme-options.php:517
+#: inc/frontend/content.php:46
+msgid "Blog"
+msgstr ""
+
+#: inc/backend/theme-options.php:505
+msgid "Display Breadcrumb"
+msgstr ""
+
+#: inc/backend/theme-options.php:513
+msgid "Display breadcrumb on"
+msgstr ""
+
+#: inc/backend/theme-options.php:514
+msgid "Select page displays breadcrumb"
+msgstr ""
+
+#: inc/backend/theme-options.php:518
+msgid "Blog Detail"
+msgstr ""
+
+#: inc/backend/theme-options.php:519
+msgid "Page"
+msgstr ""
+
+#: inc/backend/theme-options.php:520
+msgid "Case Study"
+msgstr ""
+
+#: inc/backend/theme-options.php:534
+#: inc/backend/menu-templates/background.php:4
+msgid "Background Image"
+msgstr ""
+
+#: inc/backend/theme-options.php:542
+msgid "Display Parallax Background Image"
+msgstr ""
+
+#: inc/backend/theme-options.php:551
+msgid "Background Parallax Image"
+msgstr ""
+
+#: inc/backend/theme-options.php:552
+msgid "Upload new image or select one in media library"
+msgstr ""
+
+#: inc/frontend/entry.php:413
+msgid "Edit"
+msgstr ""
+
+#: inc/frontend/entry.php:419
+msgid "Reply"
+msgstr ""
+
+#: inc/frontend/entry.php:429
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/frontend/footer.php:37
+msgid "Email Newsletter!"
+msgstr ""
+
+#: inc/frontend/footer.php:38
+msgid "You Email"
+msgstr ""
+
+#: inc/frontend/media.php:16
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Montserrat, translate this to 'off'. Do not translate
+#. into your own language.
+#: inc/frontend/media.php:21
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Montserrat, translate this to 'off'. Do not translate
+#. into your own language.
+#: inc/frontend/media.php:27
+msgctxt "Varela Round font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/functions/breadcrumbs.php:18
+msgid "Home"
+msgstr ""
+
+#: inc/functions/breadcrumbs.php:20
+msgid "You are here: "
+msgstr ""
+
+#: inc/functions/breadcrumbs.php:111
+#, php-format
+msgid "Search results for &quot;%s&quot;"
+msgstr ""
+
+#: inc/functions/breadcrumbs.php:115
+msgid "Not Found"
+msgstr ""
+
+#: inc/functions/breadcrumbs.php:124
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: inc/functions/breadcrumbs.php:134
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: inc/functions/breadcrumbs.php:141
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: inc/functions/breadcrumbs.php:148
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: inc/functions/breadcrumbs.php:155
+msgid "Archives"
+msgstr ""
+
+#: inc/functions/theme-options.php:32
+msgid "Facebook"
+msgstr ""
+
+#: inc/functions/theme-options.php:36
+msgid "Twitter"
+msgstr ""
+
+#: inc/functions/theme-options.php:40
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/functions/theme-options.php:44
+msgid "Google+"
+msgstr ""
+
+#: inc/functions/theme-options.php:48
+msgid "Tumblr"
+msgstr ""
+
+#: inc/functions/theme-options.php:52
+msgid "YouTube"
+msgstr ""
+
+#: inc/functions/theme-options.php:56
+msgid "Instagram"
+msgstr ""
+
+#: inc/functions/theme-options.php:60
+msgid "WordPress"
+msgstr ""
+
+#: inc/functions/theme-options.php:64
+msgid "Dribble"
+msgstr ""
+
+#: inc/functions/theme-options.php:68
+msgid "Behance"
+msgstr ""
+
+#: inc/functions/theme-options.php:72
+msgid "Pinterest"
+msgstr ""
+
+#: templates/case-study/content-case_study.php:54
+#: templates/case-study/content-standard.php:41
+msgid "View More"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:11
+msgid "Remove"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:12
+msgid "Select Image"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:18
+msgid "Background Color"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:23
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:25
+msgid "No Repeat"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:26
+msgid "Tile"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:27
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:28
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:33
+msgid "Background Position"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:36
+msgid "Left"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:37
+msgid "Center"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:38
+msgid "Right"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:39
+#: inc/backend/menu-templates/background.php:54
+msgid "Custom"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:51
+msgid "Top"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:52
+msgid "Middle"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:53
+msgid "Bottom"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:64
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:66
+msgid "Scroll"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:67
+msgid "Fixed"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:72
+msgid "Background Size"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:74
+msgid "Default"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:75
+msgid "Cover"
+msgstr ""
+
+#: inc/backend/menu-templates/background.php:76
+msgid "Contain"
+msgstr ""
+
+#: inc/backend/menu-templates/content.php:8
+msgid "Allow HTML and Shortcodes"
+msgstr ""
+
+#: inc/backend/menu-templates/content.php:9
+msgid ""
+"Tip: Build your content inside a page with visual page builder then copy "
+"generated content here."
+msgstr ""
+
+#: inc/backend/menu-templates/design.php:4
+msgid "Border"
+msgstr ""
+
+#: inc/backend/menu-templates/design.php:9
+msgid "Border Left"
+msgstr ""
+
+#: inc/backend/menu-templates/icon.php:704
+msgid "Click to remove"
+msgstr ""
+
+#: inc/backend/menu-templates/icon.php:710
+msgid "Search Icon"
+msgstr ""
+
+#: inc/backend/menu-templates/mega.php:5
+msgid "Enable mega menu"
+msgstr ""
+
+#: inc/backend/menu-templates/mega.php:7
+msgid "No"
+msgstr ""
+
+#: inc/backend/menu-templates/mega.php:8
+msgid "Yes"
+msgstr ""
+
+#: inc/backend/menu-templates/mega.php:15
+msgid "Mega panel width"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:2
+msgid "Mega Menu Content"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:2
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:3
+msgid "Mega Menu Background"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:3
+msgid "Background"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:5
+#: inc/backend/menu-templates/menus.php:10
+#: inc/backend/menu-templates/menus.php:13
+msgid "Menu Icon"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:5
+#: inc/backend/menu-templates/menus.php:10
+#: inc/backend/menu-templates/menus.php:13
+msgid "Icon"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:7
+msgid "Menu Setting"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:8
+msgid "Menu Design"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:8
+msgid "Design"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:9
+#: inc/backend/menu-templates/menus.php:12
+msgid "Menu Content"
+msgstr ""
+
+#: inc/backend/menu-templates/menus.php:9
+#: inc/backend/menu-templates/menus.php:12
+msgid "Content"
+msgstr ""
+
+#: inc/backend/menu-templates/settings.php:6
+msgid "Hide label"
+msgstr ""
+
+#: inc/backend/menu-templates/settings.php:10
+msgid "Hide menu item text"
+msgstr ""
+
+#: inc/backend/menu-templates/settings.php:16
+msgid "Disable link"
+msgstr ""
+
+#: inc/backend/menu-templates/settings.php:20
+msgid "Disable menu item link"
+msgstr ""
+
+#. Name of the theme
+msgid "SeoPlan"
+msgstr ""
+
+#. Description of the theme
+msgid "SEO &amp; Digital Marketing Agency WordPress Theme"
+msgstr ""
+
+#. URI of the theme
+msgid "http://themecitizen.com/seoplan"
+msgstr ""
+
+#. Author of the theme
+msgid "WP Friends"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themecitizen.com"
+msgstr ""

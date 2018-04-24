@@ -1,0 +1,155 @@
+/*  Format html tag
+================================================
+*/
+.single .post-content,
+.page .entry-content,
+.page .entry-header,
+.comment-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: @color-second;
+    margin: 5px 0;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  blockquote {
+    border-left-color: @primary-color;
+
+    p {
+      line-height: 20px;
+    }
+  }
+
+  table {
+    margin-bottom: 20px;
+
+    tbody {
+      tr {
+        th {
+          color: @color-second;
+          padding: 10px 0;
+        }
+        td {
+          padding: 10px 25px 10px 0;
+
+          a {
+            color: @primary-color;
+          }
+        }
+      }
+    }
+  }
+
+  dl {
+    dt {
+      color: @color-second;
+    }
+    dd {
+      margin-bottom: 10px;
+    }
+  }
+
+  ul {
+
+    list-style-type: disc;
+    li {
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: circle;
+      margin-top: 20px;
+      margin-left: 20px;
+
+      ul {
+        list-style-type: square;
+      }
+    }
+  }
+  ol {
+    list-style-type: decimal;
+    margin-left: 30px;
+
+    li {
+      margin-bottom: 20px;
+    }
+    ol {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  }
+  strong {
+    color: @color-second;
+  }
+
+}
+
+.single .post-content,
+.page .entry-content {
+  ul {
+    margin-left: 30px;
+  }
+  table {
+    margin-bottom: 20px;
+
+    thead {
+      tr {
+        th {
+          color: @color-second;
+          padding: 10px 0;
+        }
+      }
+    }
+    tbody {
+      tr {
+        th {
+          a {
+            color: @color-second;
+
+            &:hover {
+              color: @primary-color;
+            }
+          }
+        }
+        td,
+        th {
+          padding: 10px 25px 10px 0;
+        }
+      }
+    }
+  }
+  .post-password-form {
+    p {
+      margin-bottom: 15px;
+    }
+    label {
+      color: @color-second;
+    }
+    input[type=submit] {
+      background-color: @color-orange;
+      border: none;
+      color: @white;
+      font-size: 14px;
+      padding: 10px 30px;
+      border-radius: 30px;
+
+      &:hover {
+        background-color: @primary-color;
+      }
+    }
+    input[type=password] {
+      height: 36px;
+      padding-left: 10px;
+    }
+  }
+}
+.page .entry-content {
+  p {
+    line-height: 24px;
+  }
+}

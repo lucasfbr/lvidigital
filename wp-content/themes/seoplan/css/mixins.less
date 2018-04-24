@@ -1,0 +1,84 @@
+.box-shadow(@value){
+	-webkit-box-shadow: @value;
+	-moz-box-shadow: @value;
+	box-shadow: @value;
+}
+.border-radius(@radius-value){
+	border-radius: @radius-value;
+	-moz-border-radius: @radius-value;
+	-webkit-border-radius: @radius-value;
+	-o-border-radius: @radius-value;
+}
+.transition(@transition-value){
+	-webkit-transition: @transition-value; /* Safari */
+	-moz-transition: @transition-value;
+	-o-transition: @transition-value;
+	transition: @transition-value;
+}
+.rotate(@rotate-value){
+	-ms-transform: rotate(@rotate-value);
+	-moz-transform: rotate(@rotate-value);
+	-o-transform: rotate(@rotate-value);
+	-webkit-transform: rotate(@rotate-value);
+	transform: rotate(@rotate-value);
+	transform-origin: left top 0;
+	-o-transform-origin: left top 0;
+	-webkit-transform-origin: left top 0;
+	-ms-transform-origin: left top 0;
+	-moz-transform-origin: left top 0;
+}
+.translateX(@translate-value){
+	-webkit-transform: translateX(@translate-value);
+	-moz-transform: translateX(@translate-value);
+	-ms-transform: translateX(@translate-value);
+	-o-transform: translateX(@translate-value);
+}
+.translateY(@translate-value){
+	-webkit-transform: translateY(@translate-value);
+	-moz-transform: translateY(@translate-value);
+	-ms-transform: translateY(@translate-value);
+	-o-transform: translateY(@translate-value);
+}
+.delay(@time){
+	-webkit-transition-delay: @time; /* Safari */
+	-o-transition-delay: @time; /* opera */
+	transition-delay: @time;
+}
+.vertical-align-middle(@position: relative){
+	position: @position;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.btn(@button-background-color, @font-size_base, @padding, @color){
+	display: inline-block;
+	background-color: @button-background-color;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: @padding;
+	color: @color;
+	font-size: @font-size_base;
+	.border-radius(0);
+
+}
+.s-btn(@button-background-color, @font-size_base, @padding, @color, @border){
+	display: inline-block;
+	background-color: @button-background-color;
+	border: @border;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: @padding;
+	color: @color;
+	font-size: @font-size_base;
+	.border-radius(0);
+}
+.display-flex(){
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+}
+.justify-content(@value){
+	-webkit-justify-content: @value;
+	justify-content: @value;
+}
