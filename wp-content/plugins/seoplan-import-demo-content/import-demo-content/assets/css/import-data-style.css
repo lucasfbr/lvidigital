@@ -1,0 +1,12 @@
+.data-box {
+    margin-bottom: 30px;
+    text-align: right;
+    width: 330px;
+}
+.data-box .data-img {
+    margin-bottom: 10px;
+}
+.data-box .data-img img {
+    width: 320px;
+    height: 240px;
+}
