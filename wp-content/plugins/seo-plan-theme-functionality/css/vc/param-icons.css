@@ -1,0 +1,75 @@
+@import url("../font-awesome.min.css");
+@import url("../flaticon.css");
+
+.clear-icon-selected {
+	color: red;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 15px;
+	line-height: 16px;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+}
+
+.clear-icon-selected:hover {
+	border: 1px solid red;
+	box-sizing: border-box;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	color: red;
+	text-decoration: none;
+}
+
+.icon_block .icon-selector {
+	display: block;
+}
+
+.icon_block .icon-preview {
+	padding-right: 10px;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+.icon_block .icon-search {
+	width: 50%;
+}
+
+.icon_block .icon-selector {
+	padding: 10px;
+	margin-top: 10px;
+	max-height: 180px;
+	overflow: auto;
+	background: #fff;
+	border: 1px solid #eceff4;
+}
+
+.icon-selector i {
+	border-radius: 2px;
+	display: inline-block;
+	padding: 6px;
+	margin: 5px;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #dfdfdf;
+	background: #fff;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.icon-selector i:before {
+	vertical-align: middle;
+}
+
+.icon-selector i.selected {
+	border-color: #0089bd;
+	background-color: #0089bd;
+	color: #fff;
+}
+.themify .icon-selector i,
+.themify .icon-preview i {
+	line-height: 12px;
+}
